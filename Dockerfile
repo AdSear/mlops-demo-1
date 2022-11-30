@@ -1,4 +1,4 @@
-FROM gcr.io/applied-ai-labs/base_container:v1
+FROM gcr.io/applied-ai-labs/abdm_demo_container:v1
 
 COPY ./serve.py /home/model-server/
 COPY ./model.pth.tar /home/model-server/
