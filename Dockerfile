@@ -1,7 +1,7 @@
 FROM gcr.io/applied-ai-labs/abdm_demo_container:v1
 
 COPY ./serve.py /home/model-server/
-COPY ./model.pth.tar /home/model-server/
+COPY ./joblib_model.pkl /home/model-server/
 COPY ./requirements.txt /home/model-server/ 
 
 # install dependencies
